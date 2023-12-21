@@ -1,0 +1,138 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.full-container {
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.frame {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  text-decoration: none;
+}
+
+.heading {
+  color: #fff;
+  text-align: center;
+  font-family: Jomhuria;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.87);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-button {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 449px;
+  height: 61px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 0.5px solid #1b134a;
+  background: #091b5b;
+  box-shadow: 0px 0px 4px 0px rgba(0, 56, 255, 0.34);
+  border: none;
+  cursor: pointer;
+}
+
+.practice-button {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 449px;
+  height: 61px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 0.5px solid #1b134a;
+  background: #de0045;
+  box-shadow: 0px 0px 4px 0px rgba(0, 56, 255, 0.34);
+  border: none;
+  cursor: pointer;
+}
+
+.login-heading {
+  color: #091b5b;
+  font-family: Montserrat;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.description {
+  color: #333;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.login-des {
+  color: #333;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.login-subDes {
+  color: #5a5e6a;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.smalltext {
+  color: #5a5e6a;
+  font-family: Montserrat;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.divider {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before,
+.divider::after {
+  flex: 1;
+  content: "";
+  padding: 1px;
+  background: linear-gradient( #333, #fff); /* Replace red and blue with your desired gradient colors */
+  margin: 5px;
+}
